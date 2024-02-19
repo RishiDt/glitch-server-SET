@@ -1,12 +1,12 @@
 const express = require('express');
 const expressApp = express();
-const firestoreDb = require('./firebase_firestore');
+const firestoreDb = require('./firestore_init');
 const firebase= require('firebase-admin');
 
-const PORT =5000;
-expressApp.listen(PORT,(req,res)=>{
-console.log(`Server listening on port ${PORT}.`);
-})
+// const PORT =5000;
+// expressApp.listen(PORT,(req,res)=>{
+// console.log(`Server listening on port ${PORT}.`);
+// })
 
 
 

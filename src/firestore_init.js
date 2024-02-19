@@ -1,5 +1,5 @@
 const fAdmin= require('firebase-admin');
-const fKeys = require('./firstore_key.json');
+const fKeys = require('./configs/firestore_key.json');
 const { getFirestore } = require('firebase-admin/firestore');
 
 
@@ -9,3 +9,4 @@ fAdmin.initializeApp({
 
 
 module.exports= getFirestore();
+
