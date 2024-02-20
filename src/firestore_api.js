@@ -8,7 +8,7 @@ const firebase= require('firebase-admin');
 // console.log(`Server listening on port ${PORT}.`);
 // })
 
-
+console.log("firestore_api imported");
 
 
 expressApp.use(express.json());
@@ -220,3 +220,5 @@ res.send(error);
 }
 }
 )
+
+module.exports=expressApp;
